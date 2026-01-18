@@ -2,6 +2,10 @@ package HashTable.ReturnTheMajorityElement;
 
 import java.util.HashMap;
 
+/**
+ * TESTED ON LEETCODE DIRECTLY
+ */
+
 class Solution {
     public int majorityElement(int[] nums) {
         // If nums.length = 1, just return the first and only element

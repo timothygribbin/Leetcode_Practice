@@ -1,7 +1,9 @@
 package HashTable.DetectLinkedListCycle;
 
 import java.util.HashSet;
-
+/**
+ * TESTED ON LEETCODE DIRECTLY
+ */
 public class Solution {
     public boolean hasCycle(ListNode head) {
         // Check if the LinkedList is empty or 1 node, there can never be a cycle if so
@@ -22,7 +24,7 @@ public class Solution {
                 return true;
             }
         }
-        
+
         // If head ever == null, then there isn't a cycle
         return false;
     }

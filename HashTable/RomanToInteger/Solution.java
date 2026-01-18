@@ -1,7 +1,9 @@
 package HashTable.RomanToInteger;
 
 import java.util.Hashtable;
-
+/**
+ * TESTED ON LEETCODE DIRECTLY
+ */
 public class Solution {
     public int romanToInt(String s) {
         // Initialize Hashtbale with known roman numeral variables

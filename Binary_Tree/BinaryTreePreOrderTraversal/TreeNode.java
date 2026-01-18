@@ -1,3 +1,6 @@
+/**
+ * COPIED FROM LEETCODE
+ */
 public class TreeNode {
     int val;
     TreeNode left;

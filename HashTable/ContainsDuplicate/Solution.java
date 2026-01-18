@@ -2,6 +2,9 @@ package HashTable.ContainsDuplicate;
 
 import java.util.HashSet;
 
+/**
+ * TESTED ON LEETCODE DIRECTLY
+ */
 class Solution {
     public boolean containsDuplicate(int[] nums) {
 
