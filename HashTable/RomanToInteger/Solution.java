@@ -33,7 +33,7 @@ public class Solution {
                 sum -= value;
             }
         }
-        
+
         // Always add the last character of the string and return
         return sum + table.get(s.charAt(s.length() - 1));
     }
