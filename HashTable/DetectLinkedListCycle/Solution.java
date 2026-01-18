@@ -22,6 +22,7 @@ public class Solution {
                 return true;
             }
         }
+        
         // If head ever == null, then there isn't a cycle
         return false;
     }
