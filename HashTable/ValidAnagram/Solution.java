@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Solution {
     public boolean isAnagram(String s, String t) {
         // If they are not the same length, they cannot contain the same letters
