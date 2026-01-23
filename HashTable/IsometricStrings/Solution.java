@@ -15,7 +15,7 @@ class Solution {
             char c2 = t.charAt(i);
 
             // Check if sMap contains the current character from that string already
-            // If it does, it's asssociated value must be the current char from t
+            // If it does, it's associated value must be the current char from t
             if(sMap.containsKey(c1) && sMap.get(c1) != c2) return false;
 
             // Check if tMap contains the current character from that string already

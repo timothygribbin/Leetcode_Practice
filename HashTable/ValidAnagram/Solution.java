@@ -9,7 +9,7 @@ class Solution {
         HashMap<Character, Integer> map = new HashMap<>();
 
         
-        // Build the map with s and it's number of occurences
+        // Build the map with s and it's number of occurrences
         for(int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             map.put(c, map.getOrDefault(c, 0) + 1);
@@ -25,11 +25,11 @@ class Solution {
             // Change the input to - 1 if it does contain the key, think of this as marking it off as matching with s
             map.put(c, map.get(c) - 1);
 
-            // If you have marked off all occurences, then remove it
+            // If you have marked off all occurrences, then remove it
             if(map.get(c) == 0) {
                 map.remove(c);
             }
-        }  
+        }
 
         // Return if the map is empty or not
         return map.isEmpty();
