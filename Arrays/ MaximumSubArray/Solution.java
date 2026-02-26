@@ -8,7 +8,7 @@ class Solution {
 
         // Go through each element in the array
         for(int i = 0; i < nums.length; i++) {
-            // If the current sum is negative, then set the current sum to 0. 
+            // If the current sum is negative, then set the current sum to 0.
             // The negative values will never help us with the largest possible sum
             if(currentSum < 0) {
                 currentSum = 0;

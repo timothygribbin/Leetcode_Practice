@@ -19,6 +19,7 @@ public class Solution {
 
         int[] result = findMinMaxSums(n, arr, k);
         System.out.println(result[0] + " " + result[1]);
+        scanner.close();
     }
 
     public static int[] findMinMaxSums(int n, int[] arr, int k) {
@@ -37,8 +38,6 @@ public class Solution {
 			// Pass through each element in the original array
 			for(int j = 0; j < arr.length; j++) {
 
-				// Varibale to hold the min value
-                min = Integer.MAX_VALUE;
 				// If the current element is less than the min and the minArray doesn't contain the current element
 
 				if(arr[j] < min && !minArr.contains(arr[j])) {
@@ -67,9 +66,6 @@ public class Solution {
             int max = Integer.MIN_VALUE;
 			// Pass through each element in the original array
 			for(int j = 0; j < arr.length; j++) {
-
-				// Varibale to hold the max value
-				max = Integer.MAX_VALUE;
 				// If the current element is less than the max and the maxArray doesn't contain the current element
 
 				if(arr[j] > max && !maxArr.contains(arr[j])) {
